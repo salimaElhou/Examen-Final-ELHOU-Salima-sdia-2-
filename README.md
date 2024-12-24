@@ -115,10 +115,21 @@ Ce projet a pour but de configurer Keycloak pour sécuriser une architecture **M
 <img src="captures/interface.png">
 <img src="captures/interface code QR.png">
 
+
+<img src="captures/img.png">
+
+**Orders :**
+**H2 Database**
+<img src="captures/1V2.png">
+
+**Test Swagger ui:**
+<img src="captures/3V2.png">
+
 3. **Configuration de sécurité**
     - Ajoutez les annotations de sécurité (`@PreAuthorize`, `@RolesAllowed`) pour sécuriser les endpoints.
 
 ---
+
 
 ## Ressources et liens
 
