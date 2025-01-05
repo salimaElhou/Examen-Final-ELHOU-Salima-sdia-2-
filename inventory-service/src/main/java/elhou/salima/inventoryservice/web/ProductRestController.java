@@ -8,6 +8,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 
 @RestController
@@ -28,8 +29,15 @@ public class ProductRestController {
     @GetMapping("/products/{id}")
     //@PreAuthorize("hasAuthority('USER')")
     public Product productById(@PathVariable String id){
-        return productRepository.findById(id).get();
+        return productRepository.findById(id)
+                .orElseThrow(() -> new NoSuchElementException("Product not found with ID: " + id));
     }
+
+//    @GetMapping("/products/{id}")
+//    //@PreAuthorize("hasAuthority('USER')")
+//    public Product productById(@PathVariable String id){
+//        return productRepository.findById(id).get();
+//    }
 
     @GetMapping("/auth")
     public Authentication authentication(Authentication authentication){
