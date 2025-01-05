@@ -126,7 +126,8 @@ Ce projet a pour but de configurer Keycloak pour sécuriser une architecture **M
 <img src="captures/3V2.png">
 
 **Orders interface**
-<img src="captures/ordersAng.png">
+
+<img src="captures/ordersinterface.png">
 
 3. **Configuration de sécurité**
     - Ajoutez les annotations de sécurité (`@PreAuthorize`, `@RolesAllowed`) pour sécuriser les endpoints.
