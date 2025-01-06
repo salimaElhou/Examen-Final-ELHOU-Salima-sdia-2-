@@ -104,7 +104,11 @@ L'architecture comprend les microservices suivants :
 
 ---
 
-## Partie 2 : Développement et sécurisation de l'architecture Micro-Service
+## Partie 2 : Eureka Service
+
+<img src="captures/Eureka.png">
+
+## Partie 3 : Développement et sécurisation de l'architecture Micro-Service
 
 ### Étapes de développement :
 1. **Backend : Spring Boot**
