@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/inventory-service/pom.xml" />
         <option value="$PROJECT_DIR$/order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-discovery/pom.xml" />
+        <option value="$PROJECT_DIR$/Gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Commercant-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Banque-Centrale-Service/pom.xml" />
+        <option value="$PROJECT_DIR$/Agence-Bancaire-Service/pom.xml" />
       </list>
     </option>
   </component>
